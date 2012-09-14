@@ -20,6 +20,11 @@ Tutorial
 LocalizedIAPs iaps = new LocalizedIAPs( this, "in_app_products.csv" );
 
 Map< String, Product > products = iaps.getProducts();
+
+
+Product p;
+p.getTitle();           // Get the correct text for chosen locale, if available (the fallback is otherwise chosen).
+p.getFormattedPrice();  // Get a formatted price string that includes the price and currency symbol.
 ```
 
 License
