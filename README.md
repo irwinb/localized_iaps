@@ -17,7 +17,7 @@ Tutorial
 4. Try it out!
 
 ```java
-LocalizedIAPs iaps = new LocalizedIAPs( this, "in_app_products.csv", locale );
+LocalizedIAPs iaps = new LocalizedIAPs( this, "in_app_products.csv" );
 
 Map< String, Product > products = iaps.getProducts();
 ```
