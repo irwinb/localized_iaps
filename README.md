@@ -15,6 +15,7 @@ Tutorial
 3. Place CSV into assets folder.
 
 4. Try it out!
+
 ```java
 LocalizedIAPs iaps = new LocalizedIAPs( this, "in_app_products.csv", locale );
 
